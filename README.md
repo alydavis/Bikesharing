@@ -1,12 +1,7 @@
 # Bikesharing Analysis with CitiBike
 
 ## Overview
-Citi Bike is the nation's largest bike share program, with 25,000 bikes and over 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersey City and Hoboken. In this analysis, I analyzed Citi Bike trip history data from August 2019. I used Pandas to clean the "tripduration" column from an integer to a datetime data type. Then created a set of visualizations to:
-- Show the length of time that bikes are checked out for all riders and genders
-- Show the number of bike trips for all riders and genders for each hour of each day of the week
-- Show the number of bike trips for each type of user and gender for each day of the week.
-
-Finally, I added these new visualizations to a Tableau story presentation summarizing the analysis.
+Citi Bike is the nation's largest bike share program, with 25,000 bikes and over 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersey City and Hoboken. In this analysis, I analyzed Citi Bike trip history data from August 2019. I used Pandas to clean the "tripduration" column from an integer to a datetime data type. Then created a set of visualizations in a Tableau story to summarize my analysis.
 
 ## Process
 First I cleaned the data in a Jupyter Notebook with the Pandas library. First I imported the .csv file and converted to a DataFrame. Using the df.dtypes function I learned the trip duration was measured in seconds, displayed as an integer. For a stronger analysis, I converted the datatype to a datetime format to get the time in hours and minutes. Rather than replace the original data, I added this new format to a new column in the data. I then exported the data as a .csv again for visualizations in Tableau. You can see the full process in this [Jupyter Notebook file](NYC_CitiBike_Challenge.ipynb).
