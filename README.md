@@ -9,11 +9,8 @@ Citi Bike is the nation's largest bike share program, with 25,000 bikes and over
 Finally, I added these new visualizations to a Tableau story presentation summarizing the analysis.
 
 ## Process
-I used Pandas to change the datatype of the "tripduration" column from an integer to a datetime datatype to get the time in hours and minutes. [Jupyter Notebook file] ()
-
-How: identified current data types, converted, added to a new column, and exported the cleaned dataset.
-
-Created visualizations in Tableau Public (version?) with worksheets, combined insights to a customer dashboard, and built a story. 
+First I cleaned the data in a Jupyter Notebook with the Pandas library. First I imported the .csv file and converted to a DataFrame. Using the df.dtypes function I learned the trip duration was measured in seconds, displayed as an integer. For a stronger analysis, I converted the datatype to a datetime format to get the time in hours and minutes. Rather than replace the original data, I added this new format to a new column in the data. I then exported the data as a .csv again for visualizations in Tableau. You can see the full process in this [Jupyter Notebook file](NYC_CitiBike_Challenge.ipynb).
+I created visualizations in [Tableau Public](https://public.tableau.com/app/discover).
 
 ## Results
 
@@ -22,8 +19,12 @@ Results:
 The final Tableau Story can be viewed [here](https://public.tableau.com/app/profile/alyssa.davis/viz/BikesharingChallenge_16618926814050/BikesharingChallenge).
 
 
-Visualization 1
+Visualization 1: Customer Insights
+![Customer_Insights](Images/01_Customer_Data.png)
+
 Analysis
+This first story is a combination of several worksheets in a dashboard showcasing the number of rides in August, the customer type breakdown, and customer gender demographics.
+
 
 Visualization 2
 Analysis
