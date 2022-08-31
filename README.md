@@ -1,7 +1,7 @@
 # Bikesharing Analysis with CitiBike
 
 ## Overview
-For this analysis, I used Pandas to change the raw CitiBike data "tripduration" column from an integer to a datetime datatype. Then, I used the converted datatype, to create a set of visualizations to:
+Citi Bike is the nation's largest bike share program, with 25,000 bikes and over 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersey City and Hoboken. In this analysis, I analyzed Citi Bike trip history data from August 2019. I used Pandas to clean the "tripduration" column from an integer to a datetime data type. Then created a set of visualizations to:
 - Show the length of time that bikes are checked out for all riders and genders
 - Show the number of bike trips for all riders and genders for each hour of each day of the week
 - Show the number of bike trips for each type of user and gender for each day of the week.
