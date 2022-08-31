@@ -55,6 +55,7 @@ Analysis
 ## Summary
 - a high-level summary of the results 
 - two additional visualizations are suggested for future analysis
+- -- Looking at the CitiBike website - there's an option for a single "day pass" - would be interesting to track that in addition to customers and subscribers.
 
 ### Resources
 Citibike [Data](https://ride.citibikenyc.com/system-data) - August 2019
