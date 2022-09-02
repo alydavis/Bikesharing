@@ -63,7 +63,7 @@ These results provide a high level overview of CitiBike user data, but there's p
 - If CitiBike is looking to grow their customer base, there could be more research into the female or nonbinary users to determine why they aren't using the services. Is it the locations? Why is bicycling not attractive to women? Clothing, carrying items? Could some changes be made to the bikes themselves, like adding baskets to carry purses, or cutomization of the bikes, like determined if the bikes are at ideal heights and comfort for womens bodies?
 
 ### Resources
-Citibike [Data](https://ride.citibikenyc.com/system-data) - August 2019
-Python 3.9.12
-Pandas 1.4.4
-Jupyter Notebook 6.4.8
+Citibike [Data](https://ride.citibikenyc.com/system-data) - August 2019 
+<br> Python 3.9.12
+<br> Pandas 1.4.4
+<br> Jupyter Notebook 6.4.8
