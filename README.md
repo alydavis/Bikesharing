@@ -21,7 +21,7 @@ This first story is a combination of several worksheets in a dashboard showcasin
 Visualization 2: Top Starting Locations
 ![Starting Locations](Images/02_Starting_Locations.png)
 
-Visualization 3 Top Ending Locations
+Visualization 3: Top Ending Locations
 ![Ending Locations](Images/03_Ending_Locations.png)
 Analysis
 
@@ -49,7 +49,7 @@ This heatmap highlights the popular hours of each day for the month of August.
 
 Visualization 9: Trips Per Hour By Gender
 ![Trips Per Hour By Gender](Images/09_Trips_Per_Hour_By_Gender.png)
-The same graph can be visualized with gender filters to see the differences in customer groups.
+Tablea makes it easy to update the same graph to show gender filters to see the differences in customer groups.
 
 Visualization 10: Trips Per Hour By Gender & Customer Type
 ![Trips Per Hour By Gender and Customer Type](Images/10_Trips_Per_Hour_By_Gender_Customer_Type.png)
