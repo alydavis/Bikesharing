@@ -8,9 +8,6 @@ First I cleaned the data in a Jupyter Notebook with the Pandas library. First I 
 I created visualizations in [Tableau Public](https://public.tableau.com/app/discover).
 
 ## Results
-
-Results:
-
 The final Tableau Story can be viewed [here](https://public.tableau.com/app/profile/alyssa.davis/viz/BikesharingChallenge_16618926814050/BikesharingChallenge).
 
 
