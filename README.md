@@ -1,10 +1,10 @@
 # Bikesharing Analysis with CitiBike
 
 ## Overview
-Citi Bike is the nation's largest bike share program, with 25,000 bikes and over 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersey City and Hoboken. In this analysis, I analyzed Citi Bike trip history data from August 2019. I used Pandas to clean the "tripduration" column from an integer to a datetime data type. Then created a set of visualizations in a Tableau story to summarize my analysis.
+Citi Bike is the nation's largest bike share program, with 25,000 bikes and over 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersey City and Hoboken. In this analysis, I analyzed Citi Bike trip history data from August 2019. I used Pandas to clean the "tripduration" column from an integer to a datetime data type and then created a set of visualizations in a Tableau story to summarize my analysis.
 
 ## Process
-First I cleaned the data in a Jupyter Notebook with the Pandas library. First I imported the .csv file and converted to a DataFrame. Using the df.dtypes function I learned the trip duration was measured in seconds, displayed as an integer. For a stronger analysis, I converted the datatype to a datetime format to get the time in hours and minutes. Rather than replace the original data, I added this new format to a new column in the data. I then exported the data as a .csv again for visualizations in Tableau. You can see the full process in this [Jupyter Notebook file](NYC_CitiBike_Challenge.ipynb).
+To begin, I cleaned the data in a Jupyter Notebook with the Pandas library. First I imported the .csv file and converted to a DataFrame. Using the df.dtypes function I learned the trip duration was measured in seconds, displayed as an integer. For a stronger analysis, I converted the datatype to a datetime format to get the time in hours and minutes. Rather than replace the original data, I added this new format to a new column in the data. I then exported the data as a .csv again for visualizations in Tableau. You can see the full process in this [Jupyter Notebook file](NYC_CitiBike_Challenge.ipynb).
 I created visualizations in [Tableau Public](https://public.tableau.com/app/discover).
 
 ## Results
@@ -23,9 +23,8 @@ Visualization 2: Top Starting Locations
 
 Visualization 3: Top Ending Locations
 ![Ending Locations](Images/03_Ending_Locations.png)
-Analysis
 
-Both of these visuals show the popular areas to begin and end CitiBike rides. The size of the circles and darkness of color show the high volume locations. These areas could be more popular for many reasons, but its likely due to the population size, volume of commuters, and potentitally tourists.
+Both of these location visuals show the popular areas to begin and end CitiBike rides. The size of the circles and darkness of color show the high volume locations. These areas could be more popular for many reasons, but its likely due to the population size, volume of commuters, and potentitally tourists.
 
 Visualization 4: Peak Hours
 ![Peak Hours](Images/04_Peak_Hours.png)
@@ -61,8 +60,7 @@ This data shows the popularity of CitiBike ridesharing in New York. There is a s
 
 These results provide a high level overview of CitiBike user data, but there's plenty of further research one could conduct:
 - Looking at the CitiBike website - there's an option for a single "day pass" - would be interesting to track that in addition to customers and subscribers.
-- If CitiBike is looking to grow their customer base, there could be more research into the female or nonbinary users to determine why they aren't using the services. Is it the locations? Why is bicycling not attractive to women? Clothing, carrying items? Could some changes be made to the bikes - adding baskets. Are bikes at ideal heights for womens bodies? Are they easy to adjust? Safety?
-- 
+- If CitiBike is looking to grow their customer base, there could be more research into the female or nonbinary users to determine why they aren't using the services. Is it the locations? Why is bicycling not attractive to women? Clothing, carrying items? Could some changes be made to the bikes themselves, like adding baskets to carry purses, or cutomization of the bikes, like determined if the bikes are at ideal heights and comfort for womens bodies?
 
 ### Resources
 Citibike [Data](https://ride.citibikenyc.com/system-data) - August 2019
