@@ -53,16 +53,19 @@ Tablea makes it easy to update the same graph to show gender filters to see the 
 
 Visualization 10: Trips Per Hour By Gender & Customer Type
 ![Trips Per Hour By Gender and Customer Type](Images/10_Trips_Per_Hour_By_Gender_Customer_Type.png)
-The same graph can be visualized with gender filters and customer type to see the differences in customer groups.
+The same graph can be visualized with gender filters and customer type to see the differences in customer groups, further showing the predominately male subscriber user base.
 
 
 ## Summary
-- a high-level summary of the results 
-- two additional visualizations are suggested for future analysis
-- -- Looking at the CitiBike website - there's an option for a single "day pass" - would be interesting to track that in addition to customers and subscribers.
+This data shows the popularity of CitiBike ridesharing in New York. There is a strong market for all people, but mainly males, to subscribe to a bikesharing service for short transportation needs in the city, in what can be assumed to commute during the work days. 
+
+These results provide a high level overview of CitiBike user data, but there's plenty of further research one could conduct:
+- Looking at the CitiBike website - there's an option for a single "day pass" - would be interesting to track that in addition to customers and subscribers.
+- If CitiBike is looking to grow their customer base, there could be more research into the female or nonbinary users to determine why they aren't using the services. Is it the locations? Why is bicycling not attractive to women? Clothing, carrying items? Could some changes be made to the bikes - adding baskets. Are bikes at ideal heights for womens bodies? Are they easy to adjust? Safety?
+- 
 
 ### Resources
 Citibike [Data](https://ride.citibikenyc.com/system-data) - August 2019
-Python version
-Pandas version
-Jupyter Notebook version
+Python 3.9.12
+Pandas 1.4.4
+Jupyter Notebook 6.4.8
